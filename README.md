@@ -8,6 +8,8 @@ It's simple game with two gesture, tap left for jump and Right for fire a bullet
 
 Aim of the player is to kill the bird with the bullete and dodge the iceman
 
+Game is Developed using SpritKit
+
 Data Stored in userdefaults
 
 Canvas design --> Nirav Bavishi
