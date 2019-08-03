@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1085F332220FB3C006AC46E /* kill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1085F322220FB3C006AC46E /* kill.mp3 */; };
+		C1085F352220FCF8006AC46E /* killSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1085F342220FCF8006AC46E /* killSound.mp3 */; };
+		C1286987221B4FC00069F8B0 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1286986221B4FC00069F8B0 /* AudioPlayer.swift */; };
+		C1286989221B54740069F8B0 /* Tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1286988221B54740069F8B0 /* Tap.mp3 */; };
+		C128698B221B55CB0069F8B0 /* FirstScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C128698A221B55CB0069F8B0 /* FirstScene.swift */; };
+		C1C73605222B63170022AD88 /* BackgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1C73604222B63170022AD88 /* BackgroundMusic.mp3 */; };
+		C1E35DD0220DDFD200301B4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E35DCF220DDFD200301B4E /* AppDelegate.swift */; };
+		C1E35DD6220DDFD200301B4E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E35DD5220DDFD200301B4E /* GameScene.swift */; };
+		C1E35DD8220DDFD200301B4E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E35DD7220DDFD200301B4E /* GameViewController.swift */; };
+		C1E35DDB220DDFD200301B4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E35DD9220DDFD200301B4E /* Main.storyboard */; };
+		C1E35DDD220DDFD300301B4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E35DDC220DDFD300301B4E /* Assets.xcassets */; };
+		C1E35DE0220DDFD300301B4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E35DDE220DDFD300301B4E /* LaunchScreen.storyboard */; };
+		C1EC43B5221925AD00EA647C /* Tap.wav in Resources */ = {isa = PBXBuildFile; fileRef = C1EC43B3221925AD00EA647C /* Tap.wav */; };
+		C1EC43B6221925AD00EA647C /* SnowySound.wav in Resources */ = {isa = PBXBuildFile; fileRef = C1EC43B4221925AD00EA647C /* SnowySound.wav */; };
+		FCB7B0EF221FD51D00C25B0D /* OverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7B0EE221FD51D00C25B0D /* OverScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C1085F322220FB3C006AC46E /* kill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kill.mp3; sourceTree = "<group>"; };
+		C1085F342220FCF8006AC46E /* killSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = killSound.mp3; sourceTree = "<group>"; };
+		C1286986221B4FC00069F8B0 /* AudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		C1286988221B54740069F8B0 /* Tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tap.mp3; sourceTree = "<group>"; };
+		C128698A221B55CB0069F8B0 /* FirstScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScene.swift; sourceTree = "<group>"; };
+		C1C73604222B63170022AD88 /* BackgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BackgroundMusic.mp3; sourceTree = "<group>"; };
+		C1E35DCC220DDFD200301B4E /* TRexRunnerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRexRunnerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E35DCF220DDFD200301B4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1E35DD5220DDFD200301B4E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C1E35DD7220DDFD200301B4E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C1E35DDA220DDFD200301B4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1E35DDC220DDFD300301B4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1E35DDF220DDFD300301B4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1E35DE1220DDFD300301B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1EC43B3221925AD00EA647C /* Tap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Tap.wav; sourceTree = "<group>"; };
+		C1EC43B4221925AD00EA647C /* SnowySound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SnowySound.wav; sourceTree = "<group>"; };
+		FCB7B0EE221FD51D00C25B0D /* OverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1E35DC9220DDFD200301B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1E35DC3220DDFD200301B4E = {
+			isa = PBXGroup;
+			children = (
+				C1E35DCE220DDFD200301B4E /* TRexRunnerGame */,
+				C1E35DCD220DDFD200301B4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1E35DCD220DDFD200301B4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1E35DCC220DDFD200301B4E /* TRexRunnerGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1E35DCE220DDFD200301B4E /* TRexRunnerGame */ = {
+			isa = PBXGroup;
+			children = (
+				C128698A221B55CB0069F8B0 /* FirstScene.swift */,
+				C1E35DCF220DDFD200301B4E /* AppDelegate.swift */,
+				C1E35DD5220DDFD200301B4E /* GameScene.swift */,
+				C1E35DD7220DDFD200301B4E /* GameViewController.swift */,
+				C1E35DD9220DDFD200301B4E /* Main.storyboard */,
+				C1E35DDC220DDFD300301B4E /* Assets.xcassets */,
+				C1EC43B4221925AD00EA647C /* SnowySound.wav */,
+				C1085F322220FB3C006AC46E /* kill.mp3 */,
+				C1EC43B3221925AD00EA647C /* Tap.wav */,
+				C1085F342220FCF8006AC46E /* killSound.mp3 */,
+				C1C73604222B63170022AD88 /* BackgroundMusic.mp3 */,
+				C1286988221B54740069F8B0 /* Tap.mp3 */,
+				C1286986221B4FC00069F8B0 /* AudioPlayer.swift */,
+				C1E35DDE220DDFD300301B4E /* LaunchScreen.storyboard */,
+				C1E35DE1220DDFD300301B4E /* Info.plist */,
+				FCB7B0EE221FD51D00C25B0D /* OverScene.swift */,
+			);
+			path = TRexRunnerGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1E35DCB220DDFD200301B4E /* TRexRunnerGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1E35DE4220DDFD300301B4E /* Build configuration list for PBXNativeTarget "TRexRunnerGame" */;
+			buildPhases = (
+				C1E35DC8220DDFD200301B4E /* Sources */,
+				C1E35DC9220DDFD200301B4E /* Frameworks */,
+				C1E35DCA220DDFD200301B4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRexRunnerGame;
+			productName = TRexRunnerGame;
+			productReference = C1E35DCC220DDFD200301B4E /* TRexRunnerGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1E35DC4220DDFD200301B4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Abita Shiney";
+				TargetAttributes = {
+					C1E35DCB220DDFD200301B4E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = C1E35DC7220DDFD200301B4E /* Build configuration list for PBXProject "TRexRunnerGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1E35DC3220DDFD200301B4E;
+			productRefGroup = C1E35DCD220DDFD200301B4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1E35DCB220DDFD200301B4E /* TRexRunnerGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1E35DCA220DDFD200301B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1085F352220FCF8006AC46E /* killSound.mp3 in Resources */,
+				C1286989221B54740069F8B0 /* Tap.mp3 in Resources */,
+				C1E35DDB220DDFD200301B4E /* Main.storyboard in Resources */,
+				C1E35DDD220DDFD300301B4E /* Assets.xcassets in Resources */,
+				C1085F332220FB3C006AC46E /* kill.mp3 in Resources */,
+				C1E35DE0220DDFD300301B4E /* LaunchScreen.storyboard in Resources */,
+				C1C73605222B63170022AD88 /* BackgroundMusic.mp3 in Resources */,
+				C1EC43B6221925AD00EA647C /* SnowySound.wav in Resources */,
+				C1EC43B5221925AD00EA647C /* Tap.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1E35DC8220DDFD200301B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB7B0EF221FD51D00C25B0D /* OverScene.swift in Sources */,
+				C128698B221B55CB0069F8B0 /* FirstScene.swift in Sources */,
+				C1E35DD6220DDFD200301B4E /* GameScene.swift in Sources */,
+				C1E35DD8220DDFD200301B4E /* GameViewController.swift in Sources */,
+				C1E35DD0220DDFD200301B4E /* AppDelegate.swift in Sources */,
+				C1286987221B4FC00069F8B0 /* AudioPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1E35DD9220DDFD200301B4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1E35DDA220DDFD200301B4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1E35DDE220DDFD300301B4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1E35DDF220DDFD300301B4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1E35DE2220DDFD300301B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1E35DE3220DDFD300301B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1E35DE5220DDFD300301B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TRexRunnerGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithShiney.TRexRunnerGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1E35DE6220DDFD300301B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TRexRunnerGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithShiney.TRexRunnerGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1E35DC7220DDFD200301B4E /* Build configuration list for PBXProject "TRexRunnerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E35DE2220DDFD300301B4E /* Debug */,
+				C1E35DE3220DDFD300301B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1E35DE4220DDFD300301B4E /* Build configuration list for PBXNativeTarget "TRexRunnerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E35DE5220DDFD300301B4E /* Debug */,
+				C1E35DE6220DDFD300301B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1E35DC4220DDFD200301B4E /* Project object */;
+}
